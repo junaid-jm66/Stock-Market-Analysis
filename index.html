@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="main.js"></script>
+    <title>Stock Trends</title>
+</head>
+<body>
+    <div id="content">
+        <div class="heading">
+            <h1>Stock Market Analysis</h1>
+        </div>
+
+        <div class="main-content">
+            <div class="stock-chart">
+                <canvas id="myChart"></canvas>
+                <div id="buttons">
+                    <button onclick="updatePeriod('1mo')">1 Month</button>
+                    <button onclick="updatePeriod('3mo')">3 Months</button>
+                    <button onclick="updatePeriod('1y')">1 Year</button>
+                    <button onclick="updatePeriod('5y')">5 Years</button>
+                </div>
+            </div>
+
+            <div class="stock-list">
+                
+            </div>
+
+            <div id="stock-value-profit">
+                <p id="stock-name" style="margin-right: 10px;"></p>
+                <p id = "stock-profit" style="margin-right : 10px"></p>
+                <p id = "stock-value"></p>
+            </div>
+
+            <div class="stock-detail">
+                <p id="stock-summary"></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
+
+

@@ -1,0 +1,96 @@
+body{
+    background-color: #030637;
+    color: aliceblue;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content{
+    display: block;
+    margin: 35px;
+}
+
+.stock-chart{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.stock-list{
+    display: inline-block;
+    margin-left: 25rem;
+}
+
+.stock-list>div>button{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.stock-list>div>p{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+canvas {
+    width: 900px;
+    margin: 20px auto;
+    display: block;
+}
+
+#stock-value-profit>p{
+    display: inline-block;
+}
+
+#myChart{
+    background-color: #240750;
+    border-radius: 10px;
+}
+
+.all-stock-list>button{
+    background-color: #1B1A55;
+    width: 100px;
+}
+
+.all-stock-list>button:hover{
+    background-color: #092635;
+}
+
+.all-stock-list>p{
+    width: 80px;
+}
+
+.display-red{
+    color: red;
+}
+
+.display-green{
+    color: #06D001;
+}
+
+#stock-summary{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
